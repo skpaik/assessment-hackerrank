@@ -1,0 +1,30 @@
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    margin-top: 32px;
+    padding: 4px;
+    background-color: lightgoldenrodyellow;
+}
+
+.bottom-bar--states {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.bottom-bar--state-selected {
+    background-color: lightseagreen;
+}
+
+.todo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 8px;
+}
